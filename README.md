@@ -6,7 +6,8 @@
 - mobile
 <img src="https://github.com/YOUNGEUN100/wise-saying-app/assets/121986519/61897bca-430f-4f51-96cb-ac9d2d33b6c5">
 ## homepage
-- asldkj
+- https://incandescent-elf-f6ce17.netlify.app/)https://incandescent-elf-f6ce17.netlify.app/
+
 
 
 
