@@ -1,5 +1,5 @@
 {
-  "name": "wise-saying-app",
+  "name": "weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "kadvice": "^1.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
