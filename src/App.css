@@ -3,84 +3,83 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'SUITE-Regular';
-  /* border: 1px solid red; */
+  color: white;
+  font-family: 'NanumSquareNeo-Variable';
 }
 
 body {
-  background-image: url(../src/images/back.jpg);
+  background-image: url(../src/images/night1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
+ }
+
+@media (min-width: 800px) {
+  .body {
+    padding: 3rem 3rem;
+  }
 }
 
-.app {
-  margin: 2rem auto;
-  max-width: 500px;
-  border: 1px solid #218c74;
-  background-color: #218c74;
-  border-radius: 20px;
-  color: white;
+.App {
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5rem;
 }
 
-
-.today {
+.now {
   font-size: 1.5rem;
+  margin-bottom: 2rem;
+ }
+
+@media (min-width: 800px) {
+  .now {
+    position: fixed;
+    bottom: 4rem;
+  }
+  .now .dayST {
+    text-align: left;
+  }
+}
+
+.now .today {
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
+
+.content {
+  width: 90%;
+  height: 50vh;
+  /*border: 1px solid blue; */
+  text-align: left;
+  font-size:1.5rem;
+}
+
+.content div {
   margin-bottom: 1rem;
 }
 
-.input_group {
-  margin-bottom: 1rem;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid red; */
-}
-
-.input_group input {
-  width: 50%;
-  height: 30px;
-  padding-left: 10px;
-  font-size: x-large;
-  border-radius: 5px;
-  border: 1px solid #f7f1e3;
-  background-color: #f7f1e3;
-}
-
-.input_group button {
+.moreBtn {
   cursor: pointer;
-  width: 20%;
-  height: 35px;
-  font-family: 'SUITE-Regular';
-  border: 1px solid #aaa69d;
-  border-radius: 5px;
-  background-color:#aaa69d;
-}
-
-.input_group button:hover {
-  background-color: #33d9b2;
-  border-color: #33d9b2;
-}
-
-.info {
-  /* border: 1px solid blue; */
+  padding: 1rem 3rem;
+  border-radius: 35px;
   font-size: large;
+  font-family: 'NanumSquareNeo-Variable';
+  background-color: #ccc;
+  border-color: #ccc;
 }
 
-.info div {
-  margin-bottom: 0.5rem;
+@media (min-width: 800px) {
+  .moreBtn {
+    position: fixed;
+    bottom: 4rem;
+    right: 5rem;
+    margin: 3rem auto;
+  }
 }
 
-.des {
-  /* border: 1px solid green; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.moreBtn:hover {
+  background-color: #fffa65;
+  border-color: #fffa65;
 }
-
-.msg {
-  color:yellow;
-  margin-bottom: 1rem;
-}
-
